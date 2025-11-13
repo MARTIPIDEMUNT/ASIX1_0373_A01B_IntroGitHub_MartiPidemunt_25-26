@@ -296,93 +296,89 @@ Listas de verificación:
 (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacías)
 # SEM2a: Introducción a HTML
 
-Se introduce a la sintaxis, estructura y etiquetas básicas de un documento HTML (`body`, `html`, `title`, `p`, `h1…h6`, listas numeradas/no numeradas y cómo añadir un icono de página), así como la estructura de carpetas de un sitio web.
+Se introduce a la sintaxis, estructura y etiquetas básicas de un documento HTML (`body`, `html`, `title`, `p`, `h1…h6`), listas numeradas/no numeradas y cómo añadir un icono de página, así como la estructura de carpetas de un sitio web.
 
 ---
 
 ## Documentación
 
-- Introducción a HTML y Fontawesome (resumen)
-- Fundamentos HTML (apuntes extendidos)
-- Mozilla Developer: HTML básico
-- HTML cheat sheet interactivo (ONLINE)
-- HTML cheat sheet (PDF)
-- Convertor PNG a ICO online convertICO
-- Insertar icono de pestaña en HTML
-- Qué es un favicon
+- Introducción a HTML y Fontawesome (resumen)  
+- Fundamentos HTML (apuntes extendidos)  
+- Mozilla Developer: HTML básico  
+- HTML cheat sheet interactivo (ONLINE)  
+- HTML cheat sheet (PDF)  
+- Convertor PNG a ICO online convertICO  
+- Insertar icono de pestaña en HTML  
+- Qué es un favicon  
 
 ---
 
 ## Introducción a HTML
 
-HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web.  
-Es el lenguaje más importante de Internet, dado que sin HTML no se vería nada en el navegador.
+**HTML (HyperText Markup Language)** es el lenguaje de marcado estándar para crear páginas web.  
+Lenguaje más importante de Internet dado que sin HTML no se vería nada en el navegador.
 
-HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc.) de las páginas web mediante etiquetas.  
-Es muy adaptable, tiene una estructura lógica y es fácil de entender e interpretar.
-
+HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc...) de las páginas web mediante etiquetas. Es muy adaptable, tiene una estructura lógica y es muy fácil de entender e interpretar.  
 **Describe el contenido.**
 
-No se dedica a cómo se interactúa con el contenido (eso corresponde a JavaScript, PHP, etc.) ni a su presentación o estilizado (que corresponde a CSS).
+No se dedica a ver cómo se interactúa con el contenido (JavaScript, PHP, etc.), ni se preocupa por la presentación o estilizado del contenido, es decir, de cómo se ve el contenido (para eso tenemos CSS).
 
-Los elementos HTML son los bloques de construcción de las páginas web.  
+Los elementos HTML son los bloques de construcción de las páginas HTML.  
 Cada elemento HTML está delimitado por etiquetas como `<body>`, `<head>`, `<p>`, `<h1>`, etc.
 
 ---
 
-## Significado de las siglas HTML
+## Significado de HTML
 
-**HyperText:** texto que enlaza con otros contenidos, como otros textos o archivos.  
-**Markup:** marca o etiqueta, ya que las páginas web se construyen con etiquetas.  
-**Language:** lenguaje, porque HTML tiene sus propias normas, estructura y convenciones.
+Las siglas **HTML** corresponden a *HyperText Markup Language*, que tiene el siguiente significado:
 
-Un ejemplo de etiqueta HTML:
+- **HyperText**: texto que enlaza con otros contenidos (hipertexto).  
+- **Markup**: marca o etiqueta, ya que todas las páginas web se construyen en base a etiquetas.  
+  Ejemplo: `<p>HOLA</p>`  
+- **Language**: lenguaje, ya que tiene sus normas y estructura.
 
-<p>HOLA</p>
-HTML no es un lenguaje de programación, ya que no posee bucles, condiciones o funciones.
-Es un lenguaje de marcado.
+> HTML **no es un lenguaje de programación**, sino de marcado.
 
-Elementos de HTML
-HTML consiste en elementos que encierran partes del contenido para indicar cómo deben mostrarse o comportarse.
+---
 
-Partes principales de un elemento:
+## Elementos HTML
 
-Etiqueta de apertura: <p>
+HTML consiste en una serie de **elementos** que usamos para encerrar diferentes partes del contenido, de modo que se vean o comporten de una determinada manera.
 
-Etiqueta de cierre: </p>
+Las partes principales de un elemento son:
 
-Contenido: texto o elementos anidados
+- **Etiqueta de apertura:** `<p>`
+- **Etiqueta de cierre:** `</p>`
+- **Contenido:** el texto o elementos dentro
+- **Elemento completo:** `<p>Contenido</p>`
 
-Elemento completo: etiqueta de apertura + contenido + etiqueta de cierre
+---
 
-Ejemplo:
+## Atributos HTML
 
-<p>Este es un párrafo.</p>
-Atributos en HTML
-Los elementos pueden tener atributos, que añaden información adicional.
+Los elementos pueden tener atributos.
 
-Ejemplo:
-
+```html
 <p class="editor-note">Mi gato es muy gruñón</p>
-class es el nombre del atributo.
-
-editor-note es el valor del atributo.
+Los atributos contienen información adicional sobre el elemento.
+En este caso, class es el nombre del atributo y editor-note su valor.
 
 Reglas de los atributos:
 
 Se colocan en la etiqueta de apertura.
 
-Llevan un espacio antes del nombre del atributo.
+Llevan un espacio antes del nombre.
 
 Se escriben como nombre="valor".
-
-El valor va entre comillas.
 
 Ejemplo de elemento vacío (sin etiqueta de cierre):
 
 
 <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
 Estructura básica de un fichero HTML
+Una página HTML básica incluye una declaración DOCTYPE, un elemento html, y dentro de este, un head y un body.
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -394,70 +390,90 @@ Estructura básica de un fichero HTML
   <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
 </body>
 </html>
-Explicación:
+Donde:
 
-<!DOCTYPE html>: tipo de documento.
+<!DOCTYPE html> → tipo de documento (requerido)
 
-<html>: elemento raíz.
+<html> → elemento raíz
 
-<head>: contiene metadatos.
+<head> → metadatos
 
-<body>: contiene el contenido visible.
+<body> → contenido visible
 
-Listas en HTML
-Listas desordenadas (<ul>)
+Listas
+Listas desordenadas <ul>
+Se usan cuando el orden de los ítems no es relevante.
+
 <ul type="disc">
   <li>Elemento 1</li>
   <li>Elemento 2</li>
 </ul>
-Tipos: DISC, SQUARE, CIRCLE.
+Tipos posibles: DISC, SQUARE, CIRCLE.
 
-Listas ordenadas (<ol>)
+Listas ordenadas <ol>
+Se usan cuando el orden sí importa.
+
+
 <ol type="A" start="3">
   <li>Elemento A</li>
   <li>Elemento B</li>
 </ol>
-Tipos: A, a, I, i, 1
-Atributos: start (inicio) y value (número asignado manualmente).
+Opciones de type: A, a, I, i, 1.
+start y value controlan la numeración.
 
-Listas de definición (<dl>)
+Listas de definición <dl>
+Permiten definir términos y sus descripciones.
+
+
 <dl>
   <dt>HTML</dt>
-  <dd>Lenguaje de marcas para estructurar textos en hipertexto.</dd>
+  <dd>Lenguaje de marcas diseñado para estructurar textos y relacionarlos en forma de hipertexto.</dd>
+
   <dt>XML</dt>
   <dd>Metalenguaje extensible de etiquetas.</dd>
+
   <dt>XHTML</dt>
   <dd>Lenguaje de marcas compatible con XML.</dd>
 </dl>
 Rutas en HTML
-Ruta absoluta
-<img src="https://www.example.com/images/logo.png" alt="Logo de Example">
-Ruta relativa
-Estructura:
+Ruta Absoluta
 
+<img src="https://www.example.com/images/logo.png" alt="Logo de Example">
+Ruta Relativa
+
+<img src="images/logo.png" alt="Logo de Mi Sitio">
+Ejemplo de estructura de proyecto:
+
+bash
+Copiar código
 /mi-sitio/
   index.html
   /images/
     logo.png
   /css/
     estilos.css
-<img src="images/logo.png" alt="Logo de Mi Sitio">
-Enlaces (<a>)
+Enlaces <a>
+Permiten crear vínculos entre documentos (hipertexto).
+
 Enlace externo
+
 <p><a href="https://m.joan23.fje.edu/" title="Joan XXIII">Jesuites Bellvitge – Joan XXIII</a></p>
-Enlace local
+Enlace interno (local)
+
 <div id="menu">
-  <a href="index.html">Inicio</a>
-  <a href="secciones/presentaciones.html">Presentaciones</a>
-  <a href="secciones/actividades.html">Actividades</a>
+  <a href="index.html" title="Inicio">Inicio</a>
+  <a href="secciones/presentaciones.html" title="Fotos">Presentaciones</a>
+  <a href="secciones/actividades.html" title="Actividades">Actividades</a>
 </div>
 Formularios
+Sirven para recoger datos del usuario mediante campos y controles.
+
 Etiqueta <form>
 
 <form action="process.php" method="post" enctype="multipart/form-data">
   <label for="name">Nombre:</label>
   <input type="text" id="name" name="name">
-  
+
   <label for="email">Correo electrónico:</label>
   <input type="email" id="email" name="email">
 
@@ -468,34 +484,36 @@ Etiqueta <form>
 </form>
 Atributos comunes:
 
-action
+action: URL de destino
 
-method
+method: get o post
 
-enctype
+enctype: codificación (para archivos)
 
-target
+target: _self, _blank, etc.
 
 Etiqueta <input>
+Tipos comunes:
+
+
 <input type="text">
 <input type="password">
 <input type="checkbox">
 <input type="radio">
 <input type="file">
 <input type="number">
-<input type="range">
 <input type="date">
-<input type="search">
 <input type="submit">
 <input type="reset">
 <input type="url">
 Radio y Checkbox
+
 <form action="/enviar-datos" method="POST">
   <fieldset>
     <legend>Selecciona tus intereses:</legend>
-    <label><input type="checkbox" name="intereses" value="deportes">Deportes</label>
-    <label><input type="checkbox" name="intereses" value="música">Música</label>
-    <label><input type="checkbox" name="intereses" value="lectura">Lectura</label>
+    <label><input type="checkbox" name="intereses" value="deportes"> Deportes</label>
+    <label><input type="checkbox" name="intereses" value="música"> Música</label>
+    <label><input type="checkbox" name="intereses" value="lectura"> Lectura</label>
   </fieldset>
   <button type="submit">Enviar</button>
 </form>
@@ -503,13 +521,14 @@ Radio y Checkbox
 <form action="/enviar-datos" method="POST">
   <fieldset>
     <legend>Selecciona tu género musical favorito:</legend>
-    <label><input type="radio" name="genero" value="rock" required>Rock</label>
-    <label><input type="radio" name="genero" value="pop">Pop</label>
-    <label><input type="radio" name="genero" value="jazz">Jazz</label>
+    <label><input type="radio" name="genero" value="rock" required> Rock</label>
+    <label><input type="radio" name="genero" value="pop"> Pop</label>
+    <label><input type="radio" name="genero" value="jazz"> Jazz</label>
   </fieldset>
   <button type="submit">Enviar</button>
 </form>
-Select y Option
+Select / Option
+
 <select id="pais" name="pais">
   <option value="">Selecciona un país</option>
   <option value="es">España</option>
@@ -524,31 +543,10 @@ Textarea
   <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu texto..."></textarea>
   <input type="submit" value="Enviar">
 </form>
-Tablas en HTML
-(1/3)
+Tablas
+Estructura básica
 
 <table border="1" width="100%">
-  <thead></thead>
-  <tbody></tbody>
-  <tfoot></tfoot>
-</table>
-(2/3)
-
-<tr align="center" bgcolor="#efefef">
-  <th colspan="2">Encabezado</th>
-</tr>
-<tr>
-  <td align="right" colspan="3">Celda de datos</td>
-</tr>
-(3/3)
-Estructura completa de una tabla
-
-<table border="1" width="80%">
-  <caption>Ejemplo de Tabla</caption>
-  <colgroup>
-    <col span="1" style="background-color: #f2f2f2">
-    <col span="1" style="background-color: #ffffff">
-  </colgroup>
   <thead>
     <tr>
       <th>Nombre</th>
@@ -562,15 +560,26 @@ Estructura completa de una tabla
       <td>25</td>
       <td>Madrid</td>
     </tr>
-    <tr>
-      <td>Luis</td>
-      <td>30</td>
-      <td>Barcelona</td>
-    </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">Total de registros: 2</td>
-    </tr>
-  </tfoot>
 </table>
+Etiquetas principales:
+
+<table> → define la tabla
+
+<thead> → encabezado
+
+<tbody> → cuerpo
+
+<tfoot> → pie
+
+Atributos comunes:
+
+border
+
+align
+
+bgcolor
+
+colspan
+
+rowspan
