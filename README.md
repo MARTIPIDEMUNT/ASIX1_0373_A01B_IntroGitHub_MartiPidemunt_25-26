@@ -294,109 +294,95 @@ Listas de verificación:
 
 
 (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacías)
+# SEM2a: Introducción a HTML
 
-SEM2a: Introducción a HTML
+Se introduce a la sintaxis, estructura y etiquetas básicas de un documento HTML (`body`, `html`, `title`, `p`, `h1…h6`, listas numeradas/no numeradas y cómo añadir un icono de página), así como la estructura de carpetas de un sitio web.
 
-Se introduce a la sintaxis, estructura y etiquetas básicas de un documento HTML (body, html, title, p, h1…h6, listas numerada/no numerada y cómo añadir un icono de página), así como la estructura de carpetas de un sitio web.
+---
 
-Documentación:
+## Documentación
 
-Introducción a HTML y Fontawesome (resumen)
+- Introducción a HTML y Fontawesome (resumen)
+- Fundamentos HTML (apuntes extendidos)
+- Mozilla Developer: HTML básico
+- HTML cheat sheet interactivo (ONLINE)
+- HTML cheat sheet (PDF)
+- Convertor PNG a ICO online convertICO
+- Insertar icono de pestaña en HTML
+- Qué es un favicon
 
-Fundamentos HTML (apuntes extendidos)
+---
 
-Mozilla Developer: HTML básico
+## Introducción a HTML
 
-HTML cheat sheet interactivo (ONLINE)
+HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web.  
+Es el lenguaje más importante de Internet, dado que sin HTML no se vería nada en el navegador.
 
-HTML cheat sheet (PDF)
+HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc.) de las páginas web mediante etiquetas.  
+Es muy adaptable, tiene una estructura lógica y es fácil de entender e interpretar.
 
-Convertor PNG a ICO online convertICO
+**Describe el contenido.**
 
-Insertar icono de pestaña en HTML
+No se dedica a cómo se interactúa con el contenido (eso corresponde a JavaScript, PHP, etc.) ni a su presentación o estilizado (que corresponde a CSS).
 
-Qué es un favicon
+Los elementos HTML son los bloques de construcción de las páginas web.  
+Cada elemento HTML está delimitado por etiquetas como `<body>`, `<head>`, `<p>`, `<h1>`, etc.
 
-Introducción a HTML
+---
 
-HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web.
-Lenguaje más importante de Internet dado que sin HTML no se vería nada en el navegador.
+## Significado de las siglas HTML
 
-HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc...) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de entender e interpretar.
-DESCRIBE EL CONTENIDO.
+**HyperText:** texto que enlaza con otros contenidos, como otros textos o archivos.  
+**Markup:** marca o etiqueta, ya que las páginas web se construyen con etiquetas.  
+**Language:** lenguaje, porque HTML tiene sus propias normas, estructura y convenciones.
 
-No se dedica a ver cómo se interactúa con el contenido (Javascript, PHP, etc...), ni se preocupa por la presentación o estilizado del contenido, es decir, de cómo se ve el contenido (para eso tenemos CSS).
+Un ejemplo de etiqueta HTML:
 
-Los elementos HTML son los bloques de construcción de las páginas HTML.
+<p>HOLA</p>
+HTML no es un lenguaje de programación, ya que no posee bucles, condiciones o funciones.
+Es un lenguaje de marcado.
 
-Cada elemento HTML está delimitado por etiquetas, como <body>, <head>, <p>, <h1>, etc.
+Elementos de HTML
+HTML consiste en elementos que encierran partes del contenido para indicar cómo deben mostrarse o comportarse.
 
-Introducción a HTML
+Partes principales de un elemento:
 
-Las siglas de HTML corresponden con “HyperText Markup Language”, que tiene el siguiente significado:
+Etiqueta de apertura: <p>
 
-HyperText, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+Etiqueta de cierre: </p>
 
-Markup, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5.
-Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p>.
+Contenido: texto o elementos anidados
 
-Language, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web.
-Algo importante a tener en cuenta y con lo que no hay que confundirse, es que aunque HTML sea un lenguaje no quiere decir que sea un lenguaje de programación.
-HTML no lo es, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones, las funciones, etcétera.
+Elemento completo: etiqueta de apertura + contenido + etiqueta de cierre
 
-Introducción a HTML (elementos)
+Ejemplo:
 
-Es decir, que HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de su contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
+<p>Este es un párrafo.</p>
+Atributos en HTML
+Los elementos pueden tener atributos, que añaden información adicional.
 
-Esto implica que la información a mostrar ha de ir “etiquetada” para formar elementos que el navegador web sepa interpretar de qué tipo de información se trata y cómo tal sepa cómo representarlos.
-
-Las partes principales del elemento son:
-
-La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares < > de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
-
-La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre / antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
-
-El contenido: este es el contenido del elemento, que en este caso es sólo texto.
-
-El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
-
-Introducción a HTML (atributos)
-
-Los elementos pueden también tener atributos:
+Ejemplo:
 
 <p class="editor-note">Mi gato es muy gruñón</p>
+class es el nombre del atributo.
 
+editor-note es el valor del atributo.
 
-Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note el valor del atributo.
-En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.
+Reglas de los atributos:
 
-Los atributos siempre se incluyen en la etiqueta de apertura de un elemento y deben tener siempre:
+Se colocan en la etiqueta de apertura.
 
-Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
+Llevan un espacio antes del nombre del atributo.
 
-El nombre del atributo, seguido por un signo de igual (=).
+Se escriben como nombre="valor".
 
-Comillas de apertura y de cierre, encerrando el valor del atributo.
+El valor va entre comillas.
 
-Puedes también colocar elementos dentro de otros elementos. Esto se llama anidamiento.
+Ejemplo de elemento vacío (sin etiqueta de cierre):
 
-Algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo, el elemento
 
 <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
-
-
-posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado.
-
 Estructura básica de un fichero HTML
-
-Una página HTML básica incluye una declaración DOCTYPE, un elemento html, y dentro de este, un head y un body.
-
-El head contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el body contiene el contenido principal de la página web.
-
-Un ejemplo de estructura básica de HTML (1/4)
-
-Estructura:
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -408,91 +394,46 @@ Estructura:
   <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
 </body>
 </html>
+Explicación:
 
+<!DOCTYPE html>: tipo de documento.
 
-Donde:
+<html>: elemento raíz.
 
-<!DOCTYPE html> indica el tipo de documento. Es un preámbulo requerido.
+<head>: contiene metadatos.
 
-<html></html> el elemento raíz.
+<body>: contiene el contenido visible.
 
-<head></head> contenedor de metadatos (no visible en la página).
+Listas en HTML
+Listas desordenadas (<ul>)
+<ul type="disc">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+</ul>
+Tipos: DISC, SQUARE, CIRCLE.
 
-<body></body> contiene el contenido visible por los visitantes de la página.
-Etiquetas básicas de HTML
-Listas
+Listas ordenadas (<ol>)
+<ol type="A" start="3">
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+</ol>
+Tipos: A, a, I, i, 1
+Atributos: start (inicio) y value (número asignado manualmente).
 
-Las listas desordenadas son aquellas en las que el orden de los ítems no es relevante, como en una lista de compras.
-Estas son encerradas en un elemento <ul> (unordered list).
-Se puede escoger el símbolo tipográfico indicándolo en la etiqueta <ul>.
-Las opciones posibles son:
-
-<ul type=DISC>
-
-<ul type=SQUARE>
-
-<ul type=CIRCLE>
-
-Las listas ordenadas son aquellas en las que el orden sí es relevante, como en una receta.
-Estas son encerradas en un elemento <ol> (ordered list).
-Se puede escoger el tipo al enumerar una lista; por defecto es numérica y las otras opciones disponibles son:
-
-A <ol type=A>
-
-b <ol type=a>
-
-III <ol type=I>
-
-x <ol type=start=10>
-
-1 <ol type=1>
-
-Añadiendo el parámetro start=n se fuerza la numeración a partir de un determinado valor.
-Añadiendo el parámetro value=n se fuerza a que el elemento tenga el número de orden que indiquemos.
-Cada elemento de la lista se coloca dentro de un elemento <li> (list item).
-
-Etiquetas básicas de HTML
-Listas de definición
-
-Las listas de definición se caracterizan por ser una enumeración de definiciones de términos.
-Por lo tanto, los ítems de las listas de definición están formados por dos elementos: el término y su definición.
-
-Para marcar el inicio y final de la lista usamos la etiqueta <dl> (definition list);
-para cada uno de los términos se usa la etiqueta <dt> (definition term),
-y para cada una de las definiciones se usa la etiqueta <dd> (definition description).
-
+Listas de definición (<dl>)
 <dl>
   <dt>HTML</dt>
-  <dd>Lenguaje de marcas diseñado para estructurar textos y relacionarlos en forma de hipertexto.</dd>
-
+  <dd>Lenguaje de marcas para estructurar textos en hipertexto.</dd>
   <dt>XML</dt>
-  <dd>Metalenguaje extensible de etiquetas. No es realmente un lenguaje en particular, sino una manera de definir lenguajes para diferentes necesidades.</dd>
-
+  <dd>Metalenguaje extensible de etiquetas.</dd>
   <dt>XHTML</dt>
-  <dd>Lenguaje de marcas con las mismas funcionalidades que el HTML y que cumple con las especificaciones del XML.</dd>
+  <dd>Lenguaje de marcas compatible con XML.</dd>
 </dl>
-
-Etiquetas básicas de HTML
-
-En HTML, cuando necesitamos enlazar a otros archivos (ya sean documentos HTML, hojas de estilo CSS o imágenes),
-podemos usar rutas para especificar la ubicación de estos archivos.
-Existen dos tipos de rutas: absolutas y relativas.
-
-Ruta Absoluta
-
-Una ruta absoluta especifica la ubicación completa del archivo en la web, comenzando desde el dominio.
-Es útil cuando el archivo se encuentra en un servidor diferente o en una ubicación específica de la web.
-Por ejemplo, si queremos enlazar a una imagen que está en un servidor externo, usamos una ruta absoluta:
-
+Rutas en HTML
+Ruta absoluta
 <img src="https://www.example.com/images/logo.png" alt="Logo de Example">
-
-Ruta Relativa
-
-Una ruta relativa especifica la ubicación del archivo en relación con la ubicación del documento actual.
-Es útil para mantener una estructura de enlaces clara dentro de un mismo sitio web.
-Las rutas relativas pueden ser simples y facilitar el mantenimiento del sitio, especialmente cuando los archivos se trasladan o reorganizan.
-
-Ejemplo de estructura:
+Ruta relativa
+Estructura:
 
 /mi-sitio/
   index.html
@@ -500,103 +441,136 @@ Ejemplo de estructura:
     logo.png
   /css/
     estilos.css
-
-
-Para enlazar a la imagen logo.png desde el archivo index.html,
-usarías una ruta relativa:
-
 <img src="images/logo.png" alt="Logo de Mi Sitio">
-
-
-En este caso, images/logo.png es una ruta relativa que indica que el archivo logo.png se encuentra en el directorio images dentro del mismo directorio que index.html.
-
-Etiquetas básicas de HTML
 Enlaces (<a>)
-
-El éxito de la WWW (World Wide Web) es la capacidad de saltar de un documento a otro mediante enlaces.
-El sistema que nos permite esta navegación se llama hipertexto.
-La etiqueta HTML para crear estos enlaces es <a>.
-Es una etiqueta de línea, ya que podemos colocar enlaces rodeados de texto.
-
-Para indicar cuál es el destino de nuestro enlace usamos el atributo href.
-
-Enlaces a páginas externas
-
-Si queremos hacer un enlace a una página externa a nuestra aplicación web, como por ejemplo para enlazar al sitio web
-https://m.joan23.fje.edu/, pero el texto que queremos que aparezca en el navegador es simplemente “Jesuites Bellvitge – Joan XXIII”.
-El código que debemos introducir es el siguiente:
-
+Enlace externo
 <p><a href="https://m.joan23.fje.edu/" title="Joan XXIII">Jesuites Bellvitge – Joan XXIII</a></p>
-
-Enlaces a páginas locales
-
-Si el enlace que queremos hacer está dirigido a un documento local nuestro, podemos usar la ruta relativa al archivo al cual queramos enlazar en el atributo href. Por ejemplo:
-
+Enlace local
 <div id="menu">
-  <a href="index.html" title="Volver a la página de inicio">Inicio</a>
-  <a href="secciones/presentaciones.html" title="Fotos de la web">Presentaciones</a>
-  <a href="secciones/actividades.html" title="Actividades actuales">Actividades</a>
+  <a href="index.html">Inicio</a>
+  <a href="secciones/presentaciones.html">Presentaciones</a>
+  <a href="secciones/actividades.html">Actividades</a>
 </div>
-
 Formularios
+Etiqueta <form>
 
-Los formularios web nos sirven para interactuar con el usuario y para que este usuario pueda transmitirnos información.
-Esta información se puede procesar de diferentes maneras según las necesidades de la aplicación web.
+<form action="process.php" method="post" enctype="multipart/form-data">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name">
+  
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email">
 
-Técnicamente, un formulario no es más que un fragmento de código HTML que contiene unos elementos característicos llamados controles o campos.
-Tenemos varios tipos de control: campos de texto, campos de contraseña, botones de opción (radio buttons), casillas de verificación (checkbox), campos para introducir archivos, listas de selección, áreas de texto y botones.
+  <label for="file">Subir archivo:</label>
+  <input type="file" id="file" name="file">
 
-Cada uno de los controles de un formulario debe tener el atributo name, con el cual se identifica el dato que se quiere enviar.
+  <button type="submit">Enviar</button>
+</form>
+Atributos comunes:
 
-Etiquetas de formularios (<form>)
-TAG	Descripción	Atributos comunes	Ejemplo
-<form>	Se utiliza para crear formularios que permiten al usuario enviar datos a un servidor o realizar alguna acción en una página web.	action: Define la URL donde se enviarán los datos del formulario para su procesamiento. Es el destino al que apunta el formulario.
-method: Especifica el método de envío de datos.
-enctype: Define cómo se codifican los datos antes de ser enviados al servidor. Se utiliza principalmente cuando se suben archivos.
-target: Indica dónde se debe mostrar la respuesta al enviar el formulario:
-• _self (por defecto): la respuesta se carga en la misma ventana.
-• _blank: abre la respuesta en una nueva pestaña o ventana.	html <form action="process.php" method="post" enctype="multipart/form-data"> <label for="name">Nombre:</label> <input type="text" id="name" name="name"> <label for="email">Correo electrónico:</label> <input type="email" id="email" name="email"> <label for="file">Subir archivo:</label> <input type="file" id="file" name="file"> <button type="submit">Enviar</button> </form>
-Etiquetas de formularios (<input>)
-TAG	Descripción	Atributos comunes	Ejemplo
-<input>	Se utiliza para crear diversos tipos de campos interactivos en un formulario.	type: Define el tipo de entrada que se desea mostrar.
-id: Identificador único para el campo, que se puede usar para asociar el <label> con el campo de entrada.
-name: Nombre del campo de entrada, que se utiliza al enviar el formulario.
-value: Valor predeterminado del campo o el valor enviado al servidor si el campo no es interactivo.
-placeholder: Texto que aparece en el campo cuando está vacío.
-required: Indica que el campo debe completarse antes de enviar el formulario.
-disabled: Desactiva el campo.
-readonly: Hace que el campo sea solo de lectura.	html <input type="text"> <input type="password"> <input type="checkbox"> <input type="radio"> <input type="file"> <input type="number"> <input type="range"> <input type="date"> <input type="search"> <input type="submit"> <input type="reset"> <input type="url">
-Etiquetas de formularios (input type radio y checkbox)
-<input type="radio">	<input type="checkbox">
-Botón de opción, se agrupa con otros de mismo nombre.	Casilla de verificación, permite selecciones múltiples.
-html <form action="/enviar-datos" method="POST"> <fieldset> <legend>Selecciona tus intereses:</legend> <label><input type="checkbox" name="intereses" value="deportes">Deportes</label> <label><input type="checkbox" name="intereses" value="música">Música</label> <label><input type="checkbox" name="intereses" value="lectura">Lectura</label> </fieldset> <button type="submit">Enviar</button> </form>	html <form action="/enviar-datos" method="POST"> <fieldset> <legend>Selecciona tu género musical favorito:</legend> <label><input type="radio" name="genero" value="rock" required>Rock</label> <label><input type="radio" name="genero" value="pop">Pop</label> <label><input type="radio" name="genero" value="jazz">Jazz</label> </fieldset> <button type="submit">Enviar</button> </form>
-Etiquetas de formularios (select/option)
-TAG	Descripción	Atributos comunes	Ejemplo
-<select>, <option>	Se utiliza para crear menús desplegables en los formularios. Permite al usuario seleccionar una opción de una lista de opciones predefinidas.	name: Especifica el nombre del control que se usará al enviar el formulario.
-id: Identificador único del elemento.
-size: Define el número de opciones visibles en la lista desplegable.
-multiple: Permite seleccionar varias opciones a la vez.
-value: Indica el valor de la opción.	html <select id="pais" name="pais"> <option value="">Selecciona un país</option> <option value="es">España</option> <option value="mx">México</option> <option value="ar">Argentina</option> <option value="cl">Chile</option> </select>
-Etiquetas de formularios (textarea)
-TAG	Descripción	Atributos comunes	Ejemplo
-<textarea>	Se usa para crear un área de texto en la que los usuarios pueden ingresar múltiples líneas de texto. Es útil para mensajes largos o descripciones detalladas.	name: Especifica el nombre del control que se usará al enviar el formulario.
-id: Identificador único.
-rows: Define el número de líneas visibles.
-cols: Define el ancho del área de texto.
-placeholder: Texto de ayuda.
-readonly: Solo lectura.
-disabled: Desactiva el campo.	html <form action="/enviar-datos" method="POST"> <label for="mensaje">Escribe tu mensaje:</label> <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu texto..."></textarea> <input type="submit" value="Enviar"> </form>
-Etiquetas de Tablas (1/3)
-TAG	Descripción	Atributos comunes	Ejemplo
-<table>	Define el inicio de una tabla en HTML.	border: Define el grosor del borde.	<table border="1" width="100%">
-<thead>	Agrupa el encabezado de la tabla.	No tiene atributos especiales.	
-<tbody>	Agrupa el contenido principal de la tabla.	No tiene atributos especiales.	
-<tfoot>	Agrupa el pie de la tabla, útil para resúmenes.	No tiene atributos especiales.	
-Etiquetas de Tablas (2/3)
-TAG	Descripción	Atributos comunes	Ejemplo
-<tr>	Define una fila en la tabla.	align: Alinea el contenido en la fila (left, right, center).
-bgcolor: Define el color de fondo de la fila.	<tr align="center" bgcolor="#efefef">
-<th>	Define una celda de encabezado en una tabla. Por defecto el texto dentro de un <th> se muestra en negrita, alineado al centro.	colspan: Define cuántas columnas abarca la celda.
-rowspan: Define cuántas filas abarca la celda.	<th colspan="2">
-<td>	Define una celda de datos dentro de una fila de la tabla.	align: Alinea el contenido dentro de la celda (left, right, center).
-rowspan: Abarca varias filas.	<td align="right" colspan="3">
+action
+
+method
+
+enctype
+
+target
+
+Etiqueta <input>
+<input type="text">
+<input type="password">
+<input type="checkbox">
+<input type="radio">
+<input type="file">
+<input type="number">
+<input type="range">
+<input type="date">
+<input type="search">
+<input type="submit">
+<input type="reset">
+<input type="url">
+Radio y Checkbox
+<form action="/enviar-datos" method="POST">
+  <fieldset>
+    <legend>Selecciona tus intereses:</legend>
+    <label><input type="checkbox" name="intereses" value="deportes">Deportes</label>
+    <label><input type="checkbox" name="intereses" value="música">Música</label>
+    <label><input type="checkbox" name="intereses" value="lectura">Lectura</label>
+  </fieldset>
+  <button type="submit">Enviar</button>
+</form>
+
+<form action="/enviar-datos" method="POST">
+  <fieldset>
+    <legend>Selecciona tu género musical favorito:</legend>
+    <label><input type="radio" name="genero" value="rock" required>Rock</label>
+    <label><input type="radio" name="genero" value="pop">Pop</label>
+    <label><input type="radio" name="genero" value="jazz">Jazz</label>
+  </fieldset>
+  <button type="submit">Enviar</button>
+</form>
+Select y Option
+<select id="pais" name="pais">
+  <option value="">Selecciona un país</option>
+  <option value="es">España</option>
+  <option value="mx">México</option>
+  <option value="ar">Argentina</option>
+  <option value="cl">Chile</option>
+</select>
+Textarea
+
+<form action="/enviar-datos" method="POST">
+  <label for="mensaje">Escribe tu mensaje:</label>
+  <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu texto..."></textarea>
+  <input type="submit" value="Enviar">
+</form>
+Tablas en HTML
+(1/3)
+
+<table border="1" width="100%">
+  <thead></thead>
+  <tbody></tbody>
+  <tfoot></tfoot>
+</table>
+(2/3)
+
+<tr align="center" bgcolor="#efefef">
+  <th colspan="2">Encabezado</th>
+</tr>
+<tr>
+  <td align="right" colspan="3">Celda de datos</td>
+</tr>
+(3/3)
+Estructura completa de una tabla
+
+<table border="1" width="80%">
+  <caption>Ejemplo de Tabla</caption>
+  <colgroup>
+    <col span="1" style="background-color: #f2f2f2">
+    <col span="1" style="background-color: #ffffff">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>25</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <td>Luis</td>
+      <td>30</td>
+      <td>Barcelona</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Total de registros: 2</td>
+    </tr>
+  </tfoot>
+</table>
