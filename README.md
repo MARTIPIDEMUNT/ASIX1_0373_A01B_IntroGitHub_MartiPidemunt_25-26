@@ -294,6 +294,36 @@ Listas de verificación:
 
 
 (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacías)
+# Crear un Repositorio en GitHub y Clonarlo desde CMD
+
+## 1. Crear una cuenta en GitHub
+1. Entra en [https://github.com](https://github.com)
+2. Crea una cuenta o inicia sesión.
+3. Una vez dentro, haz clic en el botón **New repository** (Nuevo repositorio).
+
+---
+
+## 2. Crear un nuevo repositorio
+1. Escribe un **nombre** para tu repositorio.  
+   Ejemplo: `mi-proyecto-html`
+2. (Opcional) Añade una **descripción**.
+3. Elige la visibilidad:
+   - **Public** → cualquiera puede verlo.
+   - **Private** → solo tú o tus colaboradores.
+4. Marca la opción **"Add a README file"** si quieres que se cree automáticamente un archivo README.md.
+5. Haz clic en **Create repository**.
+
+---
+
+## 3. Obtener la URL del repositorio
+Una vez creado, verás un botón verde que dice **"Code"**.  
+Haz clic y copia la URL HTTPS del repositorio, por ejemplo:
+## 4. Clonar el repositorio desde el CMD (o Terminal)
+
+Abre el **Símbolo del sistema (CMD)**, **PowerShell**, o **Terminal** (en macOS/Linux) y escribe:
+
+git clone https://github.com/tu-usuario/mi-proyecto-html.git
+
 # SEM2a: Introducción a HTML
 
 Se introduce a la sintaxis, estructura y etiquetas básicas de un documento HTML (`body`, `html`, `title`, `p`, `h1…h6`), listas numeradas/no numeradas y cómo añadir un icono de página, así como la estructura de carpetas de un sitio web.
