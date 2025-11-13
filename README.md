@@ -474,8 +474,7 @@ Ruta Relativa
 <img src="images/logo.png" alt="Logo de Mi Sitio">
 Ejemplo de estructura de proyecto:
 
-bash
-Copiar código
+
 /mi-sitio/
   index.html
   /images/
