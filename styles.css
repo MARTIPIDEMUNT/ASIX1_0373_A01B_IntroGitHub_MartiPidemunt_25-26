@@ -1,0 +1,146 @@
+/* Punto: Estilos generales */
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Punto: Cabecera */
+
+header{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* Punto: Secciones */
+
+section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:8px;
+}
+
+/* Punto: Evolución CSS */
+
+.ejemploEvolucion{
+color:blue;
+font-size:18px;
+}
+
+/* Punto: Ubicación CSS */
+
+.interno{
+color:purple;
+}
+
+/* Punto: Prioridad CSS */
+
+#contenedorPrioridad h3{
+color:red;
+}
+
+.prioridadClase h3{
+color:blue;
+}
+
+/* Punto: Sintaxis CSS */
+
+.sintaxisEjemplo{
+background:lightgray;
+padding:10px;
+font-size:18px;
+}
+
+/* Punto: Selectores */
+
+a{
+color:red;
+}
+
+.claseEjemplo{
+color:orange;
+}
+
+#idEjemplo{
+color:green;
+}
+
+/* Punto: Selectores avanzados */
+
+.parent :nth-child(4){
+color:red;
+font-weight:bold;
+}
+
+/* Punto: Modelo de caja */
+
+.caja{
+width:200px;
+padding:20px;
+border:3px solid black;
+margin:20px;
+background:lightblue;
+}
+
+/* Punto: Display block */
+
+.bloque{
+display:block;
+background:gray;
+margin:10px;
+padding:10px;
+color:white;
+}
+
+/* Punto: Overflow */
+
+.overflowEjemplo{
+width:200px;
+height:50px;
+border:2px solid black;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+
+/* Punto: Flexbox */
+
+.flexContenedor{
+display:flex;
+justify-content:space-around;
+padding:20px;
+}
+
+.flexItem{
+background:orange;
+padding:20px;
+width:60px;
+text-align:center;
+}
+
+/* Punto: Responsive */
+
+@media (max-width:768px){
+
+.flexContenedor{
+flex-direction:column;
+align-items:center;
+}
+
+body{
+background:lightyellow;
+}
+
+}
+
+/* Punto: Footer */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
