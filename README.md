@@ -24,13 +24,13 @@ Este repositorio contiene apuntes y ejemplos prácticos sobre:
 
 <ul>
 <li><a href="#markdown">Markdown</a></li>
+<li><a href="#comandos-git">Comandos de git</a></li>
 <li><a href="#git">Git y GitHub</a></li>
 <li><a href="#html">Introducción a HTML</a></li>
 <li><a href="#formularios">Formularios</a></li>
 <li><a href="#tablas">Tablas</a></li>
 <li><a href="#pages">GitHub Pages</a></li>
 <li><a href="#estructura">Estructura del proyecto</a></li>
-<li><a href="#conclusion">Conclusión</a></li>
 </ul>
 
 <hr>
@@ -81,6 +81,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 | 33 | Celtics | Larry Bird |
 | 23 | Bulls | Michael Jordan |
 
+<h2 id="comandos git">Comandos de git</h2>
 # Inicializa repositorio
 git init
 <img src="./imagenes/git_init.jpg">
@@ -210,8 +211,7 @@ git clone https://github.com/usuario/repositorio.git
 
 <!-- Comentario: Crear repositorio GitHub -->
 
-<h2>Crear repositorio GitHub</h2>
-
+<h2 id="git">Crear repositorio GitHub</h2>
 <ol>
 
 <li>Entrar en https://github.com</li>
@@ -229,8 +229,7 @@ git clone https://github.com/usuario/repositorio.git
 <section>
 
 <!-- Explicación de GitHub creacion Pages -->
-
-<h2>GitHub Pages</h2>
+<h2 id="pages">GitHub Pages</h2>
 
 <p>
 GitHub Pages : servicio de GitHub que permite publicar páginas web gratis usando repositorios.
@@ -474,7 +473,7 @@ https://martipidemunt.github.io/ASIX1_0373_A00_IntroGitHub
 
 <!-- Plantilla básica de una página HTML -->
 
-<h2 id="estructura-html">Estructura básica HTML</h2>
+<h2 id="estructura">Estructura básica HTML</h2>
 
 <pre>
 &lt;!DOCTYPE html&gt;
