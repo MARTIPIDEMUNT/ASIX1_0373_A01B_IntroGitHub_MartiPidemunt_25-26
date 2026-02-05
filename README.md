@@ -370,7 +370,7 @@ https://martipidemunt.github.io/ASIX1_0373_A00_IntroGitHub
 <img id="imagen1" src="./imagenes/imagen1.jpg" alt="Foto ejemplo">
 <!-- Imagen con identificador -->
 ```
-<a href="./viajes.html">Enlace otra pagina Viajes</a>
+<a href="https://martipidemunt.github.io/ASIX1_0373_A01B_IntroGitHub_MartiPidemunt_25-26/viajes.html">Enlace otra pagina Viajes</a>
 <!-- Enlace a otra página -->
 
 </body>
@@ -619,14 +619,15 @@ Contenido
 
 <!-- Enlace a otra página -->
 <p><a href="./formularios.html">Formularios</a></p>
-
-</section>
 ```
+https://martipidemunt.github.io/ASIX1_0373_A01B_IntroGitHub_MartiPidemunt_25-26/formularios.html
+</section>
+
 <br>
 <html>
 <h1 id="asix">ASIX1 – Apuntes CSS</h1>
 <h1 id="apuntes-css">Apuntes CSS</h1>
-<a href="./apuntes_css.html">Enlace pagina ejemplo</a>
+<a href="https://martipidemunt.github.io/ASIX1_0373_A01B_IntroGitHub_MartiPidemunt_25-26/apuntes_css.html">Enlace pagina ejemplo</a>
 <h2 id="intro">Evolución, sintaxis y diseño web responsive</h2>
 
 <ul>
