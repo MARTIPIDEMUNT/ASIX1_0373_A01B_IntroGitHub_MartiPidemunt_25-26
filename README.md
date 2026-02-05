@@ -5,7 +5,7 @@
 
 <h2 id="descripcion-repositorio">Descripción del repositorio</h2>
 
-<p> no me toques nada solo ponme los ids 
+<p>
 Este repositorio contiene apuntes y ejemplos prácticos sobre:
 </p>
 
