@@ -3,7 +3,7 @@
 ### Es primera toma de contacto con github
 #### Soy Martí Pidemunt
 
-<h2 id="descripcion-repositorio">Descripción del repositorio</h2>
+<h2 id="descripcion-repositorio">Index del repositorio</h2>
 
 <p>
 Este repositorio contiene apuntes y ejemplos prácticos sobre:
@@ -67,8 +67,6 @@ CERRAR ETIQUETA 1
 * Elemento desordenado 2
 * Elemento desordenado 3
 
-regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngnernognerneroreverjvernvnervvnerovnerrvnenrvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn 
-
 <p>Esto es un parrafo</p>
 
 [link](https://stackoverflow.com/questions/41345160/display-link-url-in-markdown/ "Manual oficial de Markdown")
@@ -82,6 +80,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 | 23 | Bulls | Michael Jordan |
 
 <h2 id="comandos-git">Comandos de git</h2>
+
 # Inicializa repositorio
 git init
 <img src="./imagenes/git_init.jpg">
