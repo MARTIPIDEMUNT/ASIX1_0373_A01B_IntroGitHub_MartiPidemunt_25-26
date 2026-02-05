@@ -81,7 +81,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 | 33 | Celtics | Larry Bird |
 | 23 | Bulls | Michael Jordan |
 
-<h2 id="comandos git">Comandos de git</h2>
+<h2 id="comandos-git">Comandos de git</h2>
 # Inicializa repositorio
 git init
 <img src="./imagenes/git_init.jpg">
@@ -558,14 +558,13 @@ Contenido
 
 </section>
 
+<h2 id="formularios">Formularios</h2>
 
 <!-- Formularios HTML -->
 ```html
 <section id="formularios-html">
 
 <!-- Ejemplo completo de formulario -->
-
-<h2 id="formularios">Formularios</h2>
 
 <form>
 
