@@ -631,63 +631,25 @@ Contenido
 <h2 id="intro">Evolución, sintaxis y diseño web responsive</h2>
 
 <ul>
-<li>#intro</li>
-<li>#evolucion-funcion</li>
-<li>#origen-css</li>
-<li>#funcion-lenguajes</li>
-<li>#funcion-html</li>
-<li>#funcion-css</li>
-<li>#css-no-es</li>
-<li>#historia-css</li>
-<li>#ventajas-inconvenientes</li>
-<li>#ventajas-css</li>
-<li>#inconvenientes-css</li>
-<li>#ubicacion-css</li>
-<li>#inline</li>
-<li>#interno</li>
-<li>#externo</li>
-<li>#prioridad-css</li>
-<li>#especificidad</li>
-<li>#important</li>
-<li>#herencia</li>
-<li>#sintaxis-css</li>
-<li>#estructura-css</li>
-<li>#ejemplo-css</li>
-<li>#comentarios-css</li>
-<li>#agrupar-selectores</li>
-<li>#selectores-css</li>
-<li>#selectores-basicos</li>
-<li>#selector-elemento</li>
-<li>#selector-id</li>
-<li>#selector-clase</li>
-<li>#selectores-avanzados</li>
-<li>#selector-universal</li>
-<li>#selector-atributos</li>
-<li>#selector-hijos</li>
-<li>#selector-descendientes</li>
-<li>#selector-hermanos</li>
-<li>#pseudoclases</li>
-<li>#pseudoelementos</li>
-<li>#modelo-caja</li>
-<li>#margin</li>
-<li>#border</li>
-<li>#tipos-borde</li>
-<li>#padding</li>
-<li>#padding-abreviado</li>
-<li>#posicionamiento-css</li>
-<li>#display-block</li>
-<li>#box-sizing</li>
-<li>#overflow</li>
-<li>#text-overflow</li>
-<li>#flexbox</li>
-<li>#conceptos-flexbox</li>
-<li>#propiedades-contenedor</li>
-<li>#propiedades-hijos</li>
-<li>#responsive</li>
-<li>#caracteristicas-responsive</li>
-<li>#media-queries</li>
-<li>#ejemplo-completo</li>
-<li>#conclusion</li>
+<li><a href="#asix">ASIX1 – Apuntes CSS</a></li>
+<li><a href="#apuntes-css">Apuntes CSS</a></li>
+<li><a href="#intro">Introducción</a></li>
+<li><a href="#evolucion-funcion">CSS Evolución y función</a></li>
+<li><a href="#origen-css">Origen de CSS</a></li>
+<li><a href="#funcion-lenguajes">Función de cada lenguaje</a></li>
+<li><a href="#css-no-es">CSS no es</a></li>
+<li><a href="#historia-css">Historia de CSS</a></li>
+<li><a href="#ventajas-inconvenientes">Ventajas e inconvenientes CSS</a></li>
+<li><a href="#ubicacion-css">Ubicación de CSS</a></li>
+<li><a href="#prioridad-css">Prioridad CSS</a></li>
+<li><a href="#sintaxis-css">Sintaxis CSS</a></li>
+<li><a href="#selectores-css">Selectores CSS</a></li>
+<li><a href="#modelo-caja">Modelo de Caja CSS</a></li>
+<li><a href="#posicionamiento-css">Posicionamiento CSS</a></li>
+<li><a href="#flexbox">Flexbox</a></li>
+<li><a href="#responsive">Diseño Responsive</a></li>
+<li><a href="#ejemplo-completo">Ejemplo completo CSS</a></li>
+<li><a href="#conclusion">Conclusión</a></li>
 </ul>
 
 <hr>
