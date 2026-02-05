@@ -369,13 +369,13 @@ https://martipidemunt.github.io/ASIX1_0373_A00_IntroGitHub
 
 <img id="imagen1" src="./imagenes/imagen1.jpg" alt="Foto ejemplo">
 <!-- Imagen con identificador -->
-
-<a href="./viajes.html">Viaje a NYC</a>
+```
+<a href="./viajes.html">Enlace otra pagina Viajes</a>
 <!-- Enlace a otra página -->
 
 </body>
 </html>
-```
+
 <!-- Tablas HTML -->
 
 <section id="tablas-html">
