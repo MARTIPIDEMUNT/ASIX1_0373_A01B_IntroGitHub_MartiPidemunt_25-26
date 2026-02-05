@@ -47,7 +47,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 | 33 | Celtics | Larry Bird |
 | 23 | Bulls | Michael Jordan |
 
-
+```html
 <!DOCTYPE html>
 <!-- Define el tipo de documento HTML5 -->
 
@@ -116,6 +116,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 
 </body>
 </html>
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -128,7 +129,7 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 <table border="1">
 <!-- Tabla con borde -->
 
-<caption>Tabla Clasificatoria Maratón BCN</caption>
+<h2>Tabla Clasificatoria Maratón BCN</h2>
 <!-- Título de la tabla -->
 
 <thead>
@@ -502,13 +503,6 @@ Contenido
 <li>Elemento B</li>
 </ol>
 
-<h3>Lista definición</h3>
-
-<dl>
-<dt>HTML</dt>
-<dd>Lenguaje de marcado</dd>
-</dl>
-
 </section>
 
 <section>
@@ -519,13 +513,15 @@ Contenido
 
 <h3>Ruta absoluta</h3>
 
+<img src="/imagenes/Google_logo.jpg">
 <pre>
-https://google.com/logo.png
+<img>
 </pre>
 
 <h3>Ruta relativa</h3>
 
 <pre>
+
 <img src="./imagenes/Google_logo.jpg">
 </pre>
 
@@ -539,7 +535,7 @@ https://google.com/logo.png
 
 <a href="https://google.com">Enlace externo</a>
 
-<br><br>
+<br>
 
 <a href="./index.html">Enlace interno</a>
 
@@ -556,16 +552,14 @@ https://google.com/logo.png
 <label>Nombre :</label>
 <input type="text">
 
-<br><br>
+<br>
 
 <label>Email :</label>
 <input type="email">
 
-<br><br>
+<br>
 
 <input type="submit">
-
-</form>
 
 <h3>Checkbox</h3>
 
@@ -589,6 +583,8 @@ https://google.com/logo.png
 <option>España</option>
 <option>México</option>
 <option>Argentina</option>
+
+
 </select>
 
 </section>
@@ -601,6 +597,7 @@ https://google.com/logo.png
 
 <textarea rows="4"></textarea>
 
+</form>
 </section>
 
 <section>
@@ -609,7 +606,7 @@ https://google.com/logo.png
 
 <h2>Tablas HTML</h2>
 
-<table>
+<table border="2px">
 
 <thead>
 <tr>
@@ -630,7 +627,8 @@ https://google.com/logo.png
 </table>
 
 </section>
-
+<h1>Apuntes CSS</h1>
+<a href="./apuntes_css.html">Enlace interno</a>
 </body>
 </html>
 
