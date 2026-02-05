@@ -3,6 +3,40 @@
 ### Es primera toma de contacto con github
 #### Soy Martí Pidemunt
 
+<h2 id="descripcion-repositorio">Descripción del repositorio</h2>
+
+<p> no me toques nada solo ponme los ids 
+Este repositorio contiene apuntes y ejemplos prácticos sobre:
+</p>
+
+<ul>
+<li>Uso de Git y GitHub</li>
+<li>Creación de README con Markdown</li>
+<li>Estructura básica de HTML</li>
+<li>Uso de etiquetas HTML</li>
+<li>Formularios y tablas</li>
+<li>Publicación de páginas con GitHub Pages</li>
+</ul>
+
+<hr>
+
+<h2 id="indice">Índice</h2>
+
+<ul>
+<li><a href="#markdown">Markdown</a></li>
+<li><a href="#git">Git y GitHub</a></li>
+<li><a href="#html">Introducción a HTML</a></li>
+<li><a href="#formularios">Formularios</a></li>
+<li><a href="#tablas">Tablas</a></li>
+<li><a href="#pages">GitHub Pages</a></li>
+<li><a href="#estructura">Estructura del proyecto</a></li>
+<li><a href="#conclusion">Conclusión</a></li>
+</ul>
+
+<hr>
+
+<h2 id="markdown">Markdown</h2>
+
 <a href="./imagenes/imagen_random.jpg">Enlace a imagen</a>
 Esto está en __negrita__
 Esto está en **negrita**
@@ -47,175 +81,32 @@ regooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooqejnnnnnnnn
 | 33 | Celtics | Larry Bird |
 | 23 | Bulls | Michael Jordan |
 
-```html
-<!DOCTYPE html>
-<!-- Define el tipo de documento HTML5 -->
-
-<html lang="es">
-<!-- Idioma del documento -->
-
-<head>
-<meta charset="UTF-8">
-<!-- Permite usar caracteres especiales -->
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Hace la web adaptable a móviles -->
-
-<title>Primera pagina</title>
-</head>
-
-<body>
-
-<a href="#imagen1">Enlace a Imagen uno</a>
-<!-- Enlace interno dentro de la página -->
-
-<h1>Hola mundo</h1>
-<!-- Encabezado principal -->
-
-<h2>Mi primera pagina web</h2>
-
-<p>Lorem ipsum dolor sit amet...</p>
-<!-- Párrafo -->
-
-<br>
-<!-- Salto de línea -->
-
-<hr>
-<!-- Línea separadora -->
-
-<p><em>Texto enfatizado</em></p>
-<!-- Texto en cursiva -->
-
-<p><strong>Texto importante</strong></p>
-<!-- Texto con importancia semántica -->
-
-<ol>
-<!-- Lista ordenada -->
-
-<li>Primer elemento
-    <ol>
-        <li>SubElemento 1.1</li>
-        <li>SubElemento 1.2</li>
-    </ol>
-</li>
-
-</ol>
-
-<ul>
-<!-- Lista desordenada -->
-
-<li>Elemento</li>
-
-</ul>
-
-<img id="imagen1" src="./imagenes/imagen1.jpg" alt="Foto ejemplo">
-<!-- Imagen con identificador -->
-
-<a href="./viajes.html">Viaje a NYC</a>
-<!-- Enlace a otra página -->
-
-</body>
-</html>
-```
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tablas</title>
-</head>
-<body>
-<table border="1">
-<!-- Tabla con borde -->
-
-<h2>Tabla Clasificatoria Maratón BCN</h2>
-<!-- Título de la tabla -->
-
-<thead>
-<!-- Encabezado tabla -->
-<tr>
-<th>ORDEN</th>
-<th>ATLETA</th>
-<th>TIEMPO</th>
-</tr>
-</thead>
-
-<tbody>
-<!-- Cuerpo tabla -->
-
-<tr>
-<td>1</td>
-<td>Michel Eaton</td>
-<td>2:23:00</td>
-</tr>
-
-<tr>
-<td rowspan="2">2</td>
-<!-- Une filas -->
-<td colspan="2">Andrea Bocelli</td>
-<!-- Une columnas -->
-</tr>
-
-</tbody>
-</table>
-
-<form action="URLdeDestino.html" method="GET">
-<!-- Formulario que envía datos -->
-
-<label>Username:</label>
-<input type="text" name="username" required>
-<!-- Campo obligatorio -->
-
-<fieldset>
-<!-- Agrupa campos -->
-
-<legend>Carnet conducir</legend>
-
-<input type="radio" name="carnet" value="si"> SI
-<input type="radio" name="carnet" value="no"> NO
-
-</fieldset>
-
-<select name="Nacionalidad">
-<!-- Lista desplegable -->
-<option>España</option>
-<option>Peru</option>
-</select>
-
-<textarea rows="5"></textarea>
-<!-- Área de texto -->
-
-<button type="submit">Enviar</button>
-
-</form>
-
-</body>
-</html>
-
-git init
 # Inicializa repositorio
+git init
 <img src="./imagenes/git_init.jpg">
-git add .
-# Añade archivos al staging
-<img src="./imagenes/git_add.jpg">
-git commit -m "Añadidas líneas al README"
-# Guarda cambios
-<img src="./imagenes/git_commit.jpg">
-git push origin main
-# Sube cambios a GitHub
-<img src="./imagenes/git_push_origin-main.jpg">
-# Clonar repositorio
-<img src="./imagenes/git_clone.jpg">
-git clone https://github.com/usuario/repositorio.git
 
+# Añade archivos al staging
+git add .
+<img src="./imagenes/git_add.jpg">
+
+# Guarda cambios
+git commit -m "Añadidas líneas al README"
+<img src="./imagenes/git_commit.jpg">
+
+# Sube cambios a GitHub
+git push origin main
+<img src="./imagenes/git_push_origin-main.jpg">
+
+# Clonar repositorio
+git clone https://github.com/usuario/repositorio.git
+<img src="./imagenes/git_clone.jpg">
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
 <meta charset="UTF-8">
-<title>Apuntes Markdown GitHub y HTML</title>
+<title>Apuntes Markdown y GitHub</title>
 <link rel="stylesheet" href="./css/markdown.css">
 
 </head>
@@ -268,11 +159,6 @@ git clone https://github.com/usuario/repositorio.git
 
 <p>Texto entre corchetes : texto visible</p>
 <p>Texto entre paréntesis : dirección del enlace</p>
-
-<!-- Comentario: Imágenes Markdown -->
-
-<h3>Imágenes</h3>
-
 
 </section>
 
@@ -383,39 +269,35 @@ Folder : root
 <img src="./imagenes/main_root.jpg">
 </ol>
 
-<!-- Comentario: Enlace generado automáticamente -->
+<!-- Sección dirección web -->
 
-<h3>Dirección de la página web</h3>
+<section id="direccion-web">
 
-<p>
-GitHub genera una URL con formato :
-</p>
+<!-- Explica la URL generada por GitHub Pages -->
 
-<pre>
-https://github.com/MARTIPIDEMUNT/-Segura-Pidemunt-Marti_ASIX1_0373_25-26_AE5
-</pre>
+<h3 id="titulo-direccion">Dirección de la página web</h3>
 
-<!-- Comentario: Ejemplo real -->
+<p>GitHub genera una URL con formato :</p>
 
-<p>
-Ejemplo :
-</p>
+<p>Ejemplo :</p>
 
 <pre>
 https://martipidemunt.github.io/ASIX1_0373_A00_IntroGitHub
 </pre>
+
 </section>
-<section>
 
-<!-- Comentario: Introducción HTML -->
+<!-- Introducción HTML -->
 
-<h2>Introducción a HTML</h2>
+<section id="introduccion-html">
 
-<p>
-HTML : lenguaje estándar para crear páginas web.
-</p>
+<!-- Explica qué es HTML -->
 
-<h3>Significado HTML</h3>
+<h2 id="html">Introducción a HTML</h2>
+
+<p>HTML : lenguaje estándar para crear páginas web.</p>
+
+<h3 id="significado-html">Significado HTML</h3>
 
 <ul>
 <li>HyperText : enlaza contenidos</li>
@@ -425,11 +307,135 @@ HTML : lenguaje estándar para crear páginas web.
 
 </section>
 
-<section>
+```html
+<!DOCTYPE html>
+<!-- Define el tipo de documento HTML5 -->
 
-<!-- Comentario: Elementos HTML -->
+<html lang="es">
+<!-- Idioma del documento -->
 
-<h3>Elementos HTML</h3>
+<head>
+<meta charset="UTF-8">
+<!-- Permite usar caracteres especiales -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Hace la web adaptable a móviles -->
+
+<title>Primera pagina</title>
+</head>
+
+<body>
+
+<a href="#imagen1">Enlace a Imagen uno</a>
+<!-- Enlace interno dentro de la página -->
+
+<h1>Hola mundo</h1>
+<!-- Encabezado principal -->
+
+<h2>Mi primera pagina web</h2>
+
+<p>Lorem ipsum dolor sit amet...</p>
+<!-- Párrafo -->
+
+<br>
+<!-- Salto de línea -->
+
+<hr>
+<!-- Línea separadora -->
+
+<p><em>Texto enfatizado</em></p>
+<!-- Texto en cursiva -->
+
+<p><strong>Texto importante</strong></p>
+<!-- Texto con importancia semántica -->
+
+<ol>
+<!-- Lista ordenada -->
+
+<li>Primer elemento
+    <ol>
+        <li>SubElemento 1.1</li>
+        <li>SubElemento 1.2</li>
+    </ol>
+</li>
+
+</ol>
+
+<ul>
+<!-- Lista desordenada -->
+
+<li>Elemento</li>
+
+</ul>
+
+<img id="imagen1" src="./imagenes/imagen1.jpg" alt="Foto ejemplo">
+<!-- Imagen con identificador -->
+
+<a href="./viajes.html">Viaje a NYC</a>
+<!-- Enlace a otra página -->
+
+</body>
+</html>
+```
+<!-- Tablas HTML -->
+
+<section id="tablas-html">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+</head>
+<body>
+<!-- Ejemplo de tabla -->
+
+<h2 id="tablas">Tablas HTML</h2>
+<table border="1">
+<!-- Tabla con borde -->
+
+<h2>Tabla Clasificatoria Maratón BCN</h2>
+<!-- Título de la tabla -->
+
+<thead>
+<!-- Encabezado tabla -->
+<tr>
+<th>ORDEN</th>
+<th>ATLETA</th>
+<th>TIEMPO</th>
+</tr>
+</thead>
+
+<tbody>
+<!-- Cuerpo tabla -->
+
+<tr>
+<td>1</td>
+<td>Michel Eaton</td>
+<td>2:23:00</td>
+</tr>
+
+<tr>
+<td rowspan="2">2</td>
+<!-- Une filas -->
+<td colspan="2">Andrea Bocelli</td>
+<!-- Une columnas -->
+</tr>
+
+</tbody>
+</table>
+
+</body>
+</html>
+<!-- Elementos HTML -->
+
+<section id="elementos-html">
+
+<!-- Explica cómo se forma un elemento HTML -->
+
+<h3 id="estructura-elemento">Elementos HTML</h3>
 
 <ul>
 <li>Etiqueta apertura : &lt;p&gt;</li>
@@ -443,11 +449,14 @@ HTML : lenguaje estándar para crear páginas web.
 
 </section>
 
-<section>
 
-<!-- Comentario: Atributos HTML -->
+<!-- Atributos HTML -->
 
-<h3>Atributos HTML</h3>
+<section id="atributos-html">
+
+<!-- Muestra cómo funcionan los atributos -->
+
+<h3 id="atributos">Atributos HTML</h3>
 
 <pre>
 &lt;p class="editor-note"&gt;Texto&lt;/p&gt;
@@ -458,11 +467,14 @@ HTML : lenguaje estándar para crear páginas web.
 
 </section>
 
-<section>
 
-<!-- Comentario: Estructura básica HTML -->
+<!-- Estructura básica HTML -->
 
-<h2>Estructura básica HTML</h2>
+<section id="estructura-basica">
+
+<!-- Plantilla básica de una página HTML -->
+
+<h2 id="estructura-html">Estructura básica HTML</h2>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -483,69 +495,78 @@ Contenido
 
 </section>
 
-<section>
 
-<!-- Comentario: Listas HTML -->
+<!-- Listas HTML -->
 
-<h2>Listas HTML</h2>
+<section id="listas-html">
 
-<h3>Lista desordenada</h3>
+<!-- Ejemplos de listas -->
+
+<h2 id="listas">Listas HTML</h2>
+
+<h3 id="lista-desordenada">Lista desordenada</h3>
 
 <ul>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
 </ul>
 
-<h3>Lista ordenada</h3>
+<h3 id="lista-ordenada">Lista ordenada</h3>
 
 <ol>
 <li>Elemento A</li>
 <li>Elemento B</li>
 </ol>
-
 </section>
 
-<section>
+<!-- Rutas HTML -->
+<section id="rutas-html">
 
-<!-- Comentario: Rutas HTML -->
+<!-- Explica rutas absolutas y relativas -->
 
-<h2>Rutas</h2>
+<h2 id="rutas">Rutas</h2>
 
-<h3>Ruta absoluta</h3>
+<h3 id="ruta-absoluta">Ruta absoluta</h3>
 
-<img src="/imagenes/Google_logo.jpg">
-<pre>
-<img>
-</pre>
-
-<h3>Ruta relativa</h3>
+<p>/imagenes/Google_logo.jpg</p>
 
 <pre>
+&lt;img src="/imagenes/Google_logo.jpg"&gt;
+</pre>
 
-<img src="./imagenes/Google_logo.jpg">
+<h3 id="ruta-relativa">Ruta relativa</h3>
+
+<p>./imagenes/Google_logo.jpg</p>
+
+<pre>
+&lt;img src="./imagenes/Google_logo.jpg"&gt;
 </pre>
 
 </section>
 
-<section>
 
-<!-- Comentario: Enlaces HTML -->
+<!-- Enlaces HTML -->
 
-<h2>Enlaces</h2>
+<section id="enlaces-html">
 
-<a href="https://google.com">Enlace externo</a>
+<!-- Ejemplos de enlaces -->
 
-<br>
+<h2 id="enlaces">Enlaces</h2>
 
-<a href="./index.html">Enlace interno</a>
+<p><a href="https://google.com">Enlace externo</a></p>
+
+<p><a href="./index.html">Enlace interno</a></p>
 
 </section>
 
-<section>
 
-<!-- Comentario: Formularios HTML -->
+<!-- Formularios HTML -->
+```html
+<section id="formularios-html">
 
-<h2>Formularios</h2>
+<!-- Ejemplo completo de formulario -->
+
+<h2 id="formularios">Formularios</h2>
 
 <form>
 
@@ -557,80 +578,614 @@ Contenido
 <label>Email :</label>
 <input type="email">
 
+<br><br>
+
+<!-- Campo obligatorio -->
+<label>Username :</label>
+<input type="text" name="username" required>
+
+<h3 id="checkbox">Checkbox</h3>
+
+<label><input type="checkbox"> Deportes</label>
+<label><input type="checkbox"> Música</label>
+
+<!-- Agrupa opciones relacionadas -->
+<fieldset>
+
+<legend>Carnet conducir</legend>
+
+<label><input type="radio" name="carnet" value="si"> SI</label>
+<label><input type="radio" name="carnet" value="no"> NO</label>
+
+</fieldset>
+
 <br>
 
-<input type="submit">
-
-<h3>Checkbox</h3>
-
-<input type="checkbox"> Deportes
-<input type="checkbox"> Música
-
-<h3>Radio</h3>
-
-<input type="radio" name="genero"> Rock
-<input type="radio" name="genero"> Pop
-
-</section>
-
-<section>
-
-<!-- Comentario: Select HTML -->
-
-<h2>Select</h2>
-
-<select>
+<!-- Lista desplegable -->
+<select name="Nacionalidad">
 <option>España</option>
-<option>México</option>
-<option>Argentina</option>
-
-
+<option>Peru</option>
 </select>
 
-</section>
+<br><br>
 
-<section>
+<!-- Área para texto largo -->
+<textarea rows="5"></textarea>
 
-<!-- Comentario: Textarea HTML -->
+<br><br>
 
-<h2>Textarea</h2>
-
-<textarea rows="4"></textarea>
+<button type="submit">Enviar</button>
 
 </form>
-</section>
 
-<section>
-
-<!-- Comentario: Tablas HTML -->
-
-<h2>Tablas HTML</h2>
-
-<table border="2px">
-
-<thead>
-<tr>
-<th>Nombre</th>
-<th>Edad</th>
-<th>Ciudad</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Ana</td>
-<td>25</td>
-<td>Madrid</td>
-</tr>
-</tbody>
-
-</table>
+<!-- Enlace a otra página -->
+<p><a href="./formularios.html">Formularios</a></p>
 
 </section>
-<h1>Apuntes CSS</h1>
-<a href="./apuntes_css.html">Enlace interno</a>
-</body>
+```
+<br>
+<html>
+<h1 id="asix">ASIX1 – Apuntes CSS</h1>
+<h1 id="apuntes-css">Apuntes CSS</h1>
+<a href="./apuntes_css.html">Enlace pagina ejemplo</a>
+<h2 id="intro">Evolución, sintaxis y diseño web responsive</h2>
+
+<ul>
+<li>#intro</li>
+<li>#evolucion-funcion</li>
+<li>#origen-css</li>
+<li>#funcion-lenguajes</li>
+<li>#funcion-html</li>
+<li>#funcion-css</li>
+<li>#css-no-es</li>
+<li>#historia-css</li>
+<li>#ventajas-inconvenientes</li>
+<li>#ventajas-css</li>
+<li>#inconvenientes-css</li>
+<li>#ubicacion-css</li>
+<li>#inline</li>
+<li>#interno</li>
+<li>#externo</li>
+<li>#prioridad-css</li>
+<li>#especificidad</li>
+<li>#important</li>
+<li>#herencia</li>
+<li>#sintaxis-css</li>
+<li>#estructura-css</li>
+<li>#ejemplo-css</li>
+<li>#comentarios-css</li>
+<li>#agrupar-selectores</li>
+<li>#selectores-css</li>
+<li>#selectores-basicos</li>
+<li>#selector-elemento</li>
+<li>#selector-id</li>
+<li>#selector-clase</li>
+<li>#selectores-avanzados</li>
+<li>#selector-universal</li>
+<li>#selector-atributos</li>
+<li>#selector-hijos</li>
+<li>#selector-descendientes</li>
+<li>#selector-hermanos</li>
+<li>#pseudoclases</li>
+<li>#pseudoelementos</li>
+<li>#modelo-caja</li>
+<li>#margin</li>
+<li>#border</li>
+<li>#tipos-borde</li>
+<li>#padding</li>
+<li>#padding-abreviado</li>
+<li>#posicionamiento-css</li>
+<li>#display-block</li>
+<li>#box-sizing</li>
+<li>#overflow</li>
+<li>#text-overflow</li>
+<li>#flexbox</li>
+<li>#conceptos-flexbox</li>
+<li>#propiedades-contenedor</li>
+<li>#propiedades-hijos</li>
+<li>#responsive</li>
+<li>#caracteristicas-responsive</li>
+<li>#media-queries</li>
+<li>#ejemplo-completo</li>
+<li>#conclusion</li>
+</ul>
+
+<hr>
+
+<h1 id="evolucion-funcion">CSS Evolución y función</h1>
+
+<p>CSS (Cascading Style Sheets) es el lenguaje que permite definir la apariencia visual de las páginas web.</p>
+
+<hr>
+
+<h2 id="origen-css">Origen de CSS</h2>
+
+<p>En los inicios de Internet:</p>
+
+<ul>
+<li>HTML era muy simple</li>
+<li>Solo permitía contenido textual</li>
+<li>Se añadieron etiquetas visuales</li>
+<li>HTML empezó a mezclar estructura y diseño</li>
+</ul>
+
+<p>Para solucionar este problema se creó CSS.</p>
+
+<hr>
+
+<h2 id="funcion-lenguajes">Función de cada lenguaje</h2>
+
+<h3 id="funcion-html">HTML</h3>
+<ul>
+<li>Define la estructura del documento</li>
+<li>Define el significado del contenido</li>
+<li>Ejemplos : títulos, enlaces, párrafos</li>
+</ul>
+
+<h3 id="funcion-css">CSS</h3>
+<ul>
+<li>Define la apariencia visual</li>
+<li>Define colores, tamaños y posiciones</li>
+<li>Define espaciados</li>
+</ul>
+
+<hr>
+
+<h2 id="css-no-es">CSS no es</h2>
+
+<ul>
+<li>Lenguaje de programación como JavaScript</li>
+<li>Lenguaje de etiquetas como HTML</li>
+</ul>
+
+<hr>
+
+<h1 id="historia-css">Historia de CSS</h1>
+
+<ul>
+<li>1994 : Propuesta CHSS creada por Håkon Wium Lie</li>
+<li>1996 : CSS Level 1 se convierte en estándar</li>
+<li>1998 : CSS Level 2</li>
+<li>2008 : CSS 2.1 revisión</li>
+<li>Actualidad : CSS3 dividido en módulos independientes</li>
+</ul>
+
+<hr>
+
+<h1 id="ventajas-inconvenientes">Ventajas e inconvenientes CSS</h1>
+
+<h2 id="ventajas-css">Ventajas</h2>
+
+<ul>
+<li>Código más limpio</li>
+<li>Separación estructura y diseño</li>
+<li>Reutilizable en varias páginas</li>
+<li>Permite diseños más complejos</li>
+<li>Permite estilos diferentes según dispositivo</li>
+<li>Fácil mantenimiento</li>
+</ul>
+
+<h2 id="inconvenientes-css">Inconvenientes</h2>
+
+<ul>
+<li>Diferencias entre navegadores</li>
+<li>Necesidad de pruebas adicionales</li>
+</ul>
+
+<hr>
+
+<h1 id="ubicacion-css">Ubicación de CSS</h1>
+
+<p>CSS puede aplicarse de tres formas.</p>
+
+<h2 id="inline">Estilo Inline</h2>
+
+<pre>
+&lt;p style="color:red"&gt;Texto rojo&lt;/p&gt;
+</pre>
+
+<h2 id="interno">Estilo Interno</h2>
+
+<pre>
+&lt;style&gt;
+p {
+color:red;
+}
+&lt;/style&gt;
+</pre>
+
+<h2 id="externo">Estilo Externo</h2>
+
+<p>HTML</p>
+
+<pre>
+&lt;link rel="stylesheet" href="./css/styles.css"&gt;
+</pre>
+
+<p>CSS</p>
+
+<pre>
+p {
+color:red;
+}
+</pre>
+
+<hr>
+
+<h1 id="prioridad-css">Prioridad CSS</h1>
+
+<p>Cuando varias reglas afectan a un elemento:</p>
+
+<ul>
+<li>Inline</li>
+<li>Interno</li>
+<li>Externo</li>
+</ul>
+
+<h2 id="especificidad">Especificidad</h2>
+
+<ul>
+<li>Inline : 1000</li>
+<li>ID : 100</li>
+<li>Clase : 10</li>
+<li>Elemento : 1</li>
+</ul>
+
+<p>Ejemplo</p>
+
+<ul>
+<li>h1: 1</li>
+<li>.box: 10</li>
+<li>#main: 100</li>
+</ul>
+
+<h2 id="important">Important</h2>
+
+<pre>
+color:red !important;
+</pre>
+
+<h2 id="herencia">Herencia</h2>
+
+<ul>
+<li>color</li>
+<li>font-family</li>
+</ul>
+
+<hr>
+
+<h1 id="sintaxis-css">Sintaxis CSS</h1>
+
+<h2 id="estructura-css">Estructura</h2>
+
+<pre>
+selector {
+propiedad: valor;
+}
+</pre>
+
+<h2 id="ejemplo-css">Ejemplo</h2>
+
+<pre>
+p {
+font-size: 12px;
+color: blue;
+}
+</pre>
+
+<h2 id="comentarios-css">Comentarios CSS</h2>
+
+<pre>
+/* Comentario CSS */
+</pre>
+
+<h2 id="agrupar-selectores">Agrupar selectores</h2>
+
+<pre>
+h1, p {
+color:red;
+}
+</pre>
+
+<hr>
+
+<h1 id="selectores-css">Selectores CSS</h1>
+
+<h2 id="selectores-basicos">Selectores básicos</h2>
+
+<h3 id="selector-elemento">Selector de elemento</h3>
+
+<pre>
+a {
+color:red;
+}
+</pre>
+
+<h3 id="selector-id">Selector ID</h3>
+
+<pre>
+#ejemplo {
+color:blue;
+}
+</pre>
+
+<p>Solo puede existir un ID igual.</p>
+
+<h3 id="selector-clase">Selector clase</h3>
+
+<pre>
+.ejemplo {
+color:green;
+}
+</pre>
+
+<p>Puede repetirse en varios elementos.</p>
+
+<hr>
+
+<h2 id="selectores-avanzados">Selectores avanzados</h2>
+
+<h3 id="selector-universal">Selector universal</h3>
+
+<pre>
+* {
+border:1px solid black;
+}
+</pre>
+
+<h3 id="selector-atributos">Selectores de atributos</h3>
+
+<pre>
+img[alt] {
+border:1px solid black;
+}
+</pre>
+
+<h3 id="selector-hijos">Selectores hijos directos</h3>
+
+<pre>
+div &gt; p {
+color:red;
+}
+</pre>
+
+<h3 id="selector-descendientes">Selectores descendientes</h3>
+
+<pre>
+div p {
+color:blue;
+}
+</pre>
+
+<h3 id="selector-hermanos">Selectores hermanos adyacentes</h3>
+
+<pre>
+h1 + h2 {
+margin-top:-5px;
+}
+</pre>
+
+<hr>
+
+<h2 id="pseudoclases">Pseudoclases</h2>
+
+<ul>
+<li>:link</li>
+<li>:visited</li>
+<li>:hover</li>
+<li>:focus</li>
+</ul>
+
+<h2 id="pseudoelementos">Pseudoelementos</h2>
+
+<pre>
+p::first-line {
+color:red;
+}
+</pre>
+
+<hr>
+
+<h1 id="modelo-caja">Modelo de Caja CSS</h1>
+
+<p>Todos los elementos HTML funcionan como una caja.</p>
+
+<h2 id="margin">Margin</h2>
+
+<ul>
+<li>margin-top</li>
+<li>margin-right</li>
+<li>margin-bottom</li>
+<li>margin-left</li>
+</ul>
+
+<p>Valores posibles</p>
+
+<ul>
+<li>px</li>
+<li>em</li>
+<li>rem</li>
+<li>%</li>
+<li>auto</li>
+</ul>
+
+<h2 id="border">Border</h2>
+
+<pre>
+border:2px solid red;
+</pre>
+
+<h3 id="tipos-borde">Tipos de borde</h3>
+
+<ul>
+<li>solid</li>
+<li>dashed</li>
+<li>dotted</li>
+<li>double</li>
+<li>groove</li>
+<li>ridge</li>
+<li>inset</li>
+<li>outset</li>
+</ul>
+
+<h2 id="padding">Padding</h2>
+
+<ul>
+<li>padding-top</li>
+<li>padding-right</li>
+<li>padding-bottom</li>
+<li>padding-left</li>
+</ul>
+
+<p>Nunca puede ser negativo.</p>
+
+<h3 id="padding-abreviado">Forma abreviada</h3>
+
+<pre>
+padding:10px;
+padding:10px 20px;
+padding:10px 20px 5px;
+padding:10px 20px 5px 15px;
+</pre>
+
+<hr>
+
+<h1 id="posicionamiento-css">Posicionamiento CSS</h1>
+
+<h2 id="display-block">Display block</h2>
+
+<ul>
+<li>Ocupa todo el ancho</li>
+<li>Salta línea automáticamente</li>
+</ul>
+
+<h2 id="box-sizing">Box-sizing</h2>
+
+<p>content-box : padding y border fuera del tamaño</p>
+
+<pre>
+box-sizing:border-box;
+</pre>
+
+<p>border-box : padding y border dentro del tamaño</p>
+
+<h2 id="overflow">Overflow</h2>
+
+<pre>
+overflow:hidden;
+overflow:scroll;
+overflow:auto;
+</pre>
+
+<h2 id="text-overflow">Text overflow</h2>
+
+<pre>
+text-overflow:ellipsis;
+</pre>
+
+<hr>
+
+<h1 id="flexbox">Flexbox</h1>
+
+<h2 id="conceptos-flexbox">Conceptos</h2>
+
+<ul>
+<li>Contenedor : elemento padre</li>
+<li>Item : hijos del contenedor</li>
+<li>Eje principal : dirección principal</li>
+<li>Eje secundario : dirección perpendicular</li>
+</ul>
+
+<h2 id="propiedades-contenedor">Propiedades del contenedor</h2>
+
+<pre>
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+</pre>
+
+<h2 id="propiedades-hijos">Propiedades de los hijos</h2>
+
+<ul>
+<li>order</li>
+<li>flex-grow</li>
+<li>flex-shrink</li>
+<li>flex-basis</li>
+<li>align-self</li>
+</ul>
+
+<hr>
+
+<h1 id="responsive">Diseño Responsive</h1>
+
+<p>Permite adaptar la web a diferentes tamaños de pantalla.</p>
+
+<h2 id="caracteristicas-responsive">Características</h2>
+
+<ul>
+<li>Diseño flexible</li>
+<li>Media queries</li>
+<li>Rejillas fluidas</li>
+<li>Imágenes escalables</li>
+</ul>
+
+<h2 id="media-queries">Media Queries</h2>
+
+<pre>
+body {
+background:blue;
+}
+
+@media (max-width:768px) {
+body {
+background:green;
+}
+}
+
+@media (max-width:480px) {
+body {
+background:yellow;
+}
+}
+</pre>
+
+<hr>
+
+<h1 id="ejemplo-completo">Ejemplo completo CSS</h1>
+
+<pre>
+body {
+font-family:Arial;
+margin:0;
+padding:0;
+}
+
+.container {
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.caja {
+width:200px;
+padding:20px;
+border:2px solid black;
+margin:10px;
+}
+</pre>
+
+<hr>
+
+<h1 id="conclusion">Conclusión</h1>
+
+<ul>
+<li>Separar diseño y contenido</li>
+<li>Crear diseños complejos</li>
+<li>Adaptar webs a distintos dispositivos</li>
+<li>Reutilizar estilos</li>
+<li>Mejorar mantenimiento del código</li>
+</ul>
 </html>
-
-
-

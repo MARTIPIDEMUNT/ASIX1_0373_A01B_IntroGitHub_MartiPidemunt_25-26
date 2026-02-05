@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+<h2 id="formularios">Formularios</h2>
+
+<form>
+
+<label>Nombre :</label>
+<input type="text">
+
+<br>
+
+<label>Email :</label>
+<input type="email">
+
+<br><br>
+
+<!-- Campo obligatorio -->
+<label>Username :</label>
+<input type="text" name="username" required>
+
+<h3 id="checkbox">Checkbox</h3>
+
+<label><input type="checkbox"> Deportes</label>
+<label><input type="checkbox"> Música</label>
+
+<!-- Agrupa opciones relacionadas -->
+<fieldset>
+
+<legend>Carnet conducir</legend>
+
+<label><input type="radio" name="carnet" value="si"> SI</label>
+<label><input type="radio" name="carnet" value="no"> NO</label>
+
+</fieldset>
+
+<br>
+
+<!-- Lista desplegable -->
+<select name="Nacionalidad">
+<option>España</option>
+<option>Peru</option>
+</select>
+
+<br><br>
+
+<!-- Área para texto largo -->
+<textarea rows="5"></textarea>
+
+<br><br>
+
+<button type="submit">Enviar</button>
+</form>
+
+    
+</body>
+</html>
