@@ -385,7 +385,6 @@ https://martipidemunt.github.io/ASIX1_0373_A00_IntroGitHub
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tablas</title>
 </head>
 <body>
 <!-- Ejemplo de tabla -->
